@@ -15,6 +15,7 @@ import Styles from './Style/Styles';
 import HandleEvent from './HandleEvent/HandleEvent';
 import StateDemo from './State/StateDemo';
 import BT from './State/BTCarColorChanging/BT';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <Styles /> */}
       {/* <HandleEvent /> */}
       {/* <StateDemo /> */}
-      <BT />
+      {/* <BT /> */}
+      <RenderWithMap />
     </div>
   );
 }
